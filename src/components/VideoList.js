@@ -22,7 +22,7 @@ class VideoList extends Component {
 
     return(
       <div>
-        <ul className="col-md-4 list-group" style={{marginTop:'20px'}}>
+        <ul className="videoList" >
           {list_video}
         </ul>
       </div>
