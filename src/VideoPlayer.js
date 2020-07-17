@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import YTSearch from 'youtube-api-search';
-import SearchBar from './components/SearchBar';
-import VideoList from './components/VideoList';
-import VideoDetail from './components/VideoDetails';
+import SearchBar from './components/videoplayer/SearchBar';
+import VideoList from './components/videoplayer/VideoList';
+import VideoDetail from './components/videoplayer/VideoDetails';
 
-const API_KEY = 'AIzaSyDlFoVPYOEtzZhMM28g7ntKblxO3-5BOZI';
+const API_KEY = 'AIzaSyBFwOlr0LcaD4_s11U4f0LLNGMb9Qi8uAw';
 
 class VideoPlayer extends Component{
   constructor() {
