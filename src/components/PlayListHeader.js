@@ -5,16 +5,16 @@ const PlayListHeader = () => {
     <table class="table" style={{ width: "100%" }}>
       <thead>
         <tr>
-          <th scope="col" className="playlist_table_item">
+          <th className="playlistTableItem">
             Song
           </th>
-          <th scope="col" className="playListRowItem">
+          <th className="playListRowItem">
             Artist
           </th>
-          <th scope="col" className="playListRowItem">
+          <th className="playListRowItem">
             Genre
           </th>
-          <th scope="col" className="playListRowItem">
+          <th className="playListRowItem">
             Rating
           </th>
         </tr>
