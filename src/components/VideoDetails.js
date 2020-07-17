@@ -19,9 +19,9 @@ class VideoDetail extends Component{
     const url = `https://youtube.com/embed/${videoId}`;
 
     return(
-      <div className="video-detail col-md-8">
-        <div className="embed-responsive embed-responsive-16by9" style={{marginTop:'20px'}}>
-          <iframe className="embed-responsive-item" src={url}></iframe>
+      <div className="video-detail">
+        <div className="embed-video" >
+          <iframe className="embed-item" src={url}></iframe>
         </div>
         <div className="details">
           <div>{this.props.video.snippet.title}</div>

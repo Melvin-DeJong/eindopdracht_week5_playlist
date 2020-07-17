@@ -25,11 +25,11 @@ class SearchBar extends Component {
   render() {
     return(
       <div>
-        <form onSubmit={this.submitSearch} style={{marginTop:'20px'}}>
+        <form onSubmit={this.submitSearch} >
           <input
             type="text"
-            placeholder="Search Youtube"
-            className="form-control"
+            placeholder="Zoeken op Youtube"
+            className="searchInputVideo"
             onChange={this.searchChange}
           />
         </form>

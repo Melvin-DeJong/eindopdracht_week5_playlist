@@ -14,14 +14,14 @@ class VideoListItem extends Component {
     const imgUrl = this.props.video.snippet.thumbnails.default.url;
 
     return(
-      <li className="list-group-item"  onClick={() => this.onVideoSelect(this.props.video)}>
-        <div className="video-list-media">
-          <div className="media-left">
+      <li className="VideoList-item"  onClick={() => this.onVideoSelect(this.props.video)}>
+        <div className="videoList-media">
+          <div className="media">
             <img className="media-object" src={imgUrl} alt="" />
           </div>
 
           <div className="media-body">
-            <div className="media-heading">
+            <div className="media-header">
               <div>{this.props.video.snippet.title}</div>
             </div>
           </div>
