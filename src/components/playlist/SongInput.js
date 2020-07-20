@@ -33,6 +33,7 @@ class SongInput extends React.Component {
         <table>
           <th>
             <input
+              required
               type="text"
               name="song"
               placeholder="Song"
@@ -42,6 +43,7 @@ class SongInput extends React.Component {
           </th>
           <th>  
             <input
+              required
               type="text"
               name="artist"
               placeholder="Artist"
@@ -50,7 +52,7 @@ class SongInput extends React.Component {
             />
           </th>
           <th>
-            <select value={this.state.genre} name="genre" onChange={handleChange}>
+            <select required value={this.state.genre} name="genre" onChange={handleChange}>
               <option value="">Select Genre...</option>
               <option value="Rock">Rock</option>
               <option value="Metal">Metal</option>
@@ -65,6 +67,7 @@ class SongInput extends React.Component {
           </th>
           <th>
             <input
+              required
               type="range"
               name="rating"
               min="1" max="5"
